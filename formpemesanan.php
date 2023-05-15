@@ -1,5 +1,5 @@
 <?php
-require_once "../project_uts/admin/dbkoneksi.php";
+require_once "../Ecommerce_Final/admin/dbkoneksi.php";
 
 
 ?>

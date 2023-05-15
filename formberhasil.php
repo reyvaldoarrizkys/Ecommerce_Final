@@ -3,17 +3,17 @@ $host = 'localhost';
 $db = 'db_reyv22213ti';
 $user = 'reyv22213ti';
 $pass = '19670110222213';
-$charset='utf8mb4';
+$charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
 $opt = [
-  PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,
-  PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC,
-  PDO::ATTR_EMULATE_PREPARES=>false,
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES => false,
 ];
 
-$dbh =  new PDO($dsn,$user,$pass,$opt);
+$dbh =  new PDO($dsn, $user, $pass, $opt);
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -84,6 +84,12 @@ if (isset($_GET['id'])) {
             background: #1E6F5C;
             color: #fff;
         }
+
+        .h1 .thanks{
+            width: 100%;
+            color: #1E6F5C;
+            font-size: 25px;
+        }
     </style>
 </head>
 
@@ -91,16 +97,16 @@ if (isset($_GET['id'])) {
     <header>
         <div class="navbar">
             <div class="container">
-                <a href="" class="logo">E<span>Commerce</span></a>
+                <a href="../Ecommerce_Final/index.html" class="logo">E<span>Commerce</span></a>
                 <div class="menu-wrapper">
                     <div class="menuClose bx bx-x">
 
                     </div>
                     <div class="menu">
-                        <a href="../project_uts/index.html" class="active nav-link">Beranda</a>
-                        <a href="" class="nav-link">Pesanan</a>
-                        <a href="../project_uts/index.html#pagetestimoni" class="nav-link">Testimoni</a>
-                        <a href="../project_uts/index.html#pagecontact" class="nav-link">Kontak</a>
+                        <a href="../Ecommerce_Final/" class="active nav-link">Beranda</a>
+                        <a href="../Ecommerce_Final/index.html" class="nav-link">Pesanan</a>
+                        <a href="../Ecommerce_Final/#pagetestimoni" class="nav-link">Testimoni</a>
+                        <a href="../Ecommerce_Final/#pagecontact" class="nav-link">Kontak</a>
                         <a href="admin/login.php" class="nav-link">Admin</a>
                     </div>
                     <div class="icons">
@@ -156,7 +162,9 @@ if (isset($_GET['id'])) {
     <!-- HOME END -->
 
     <!-- Contact Start -->
-    <h1>BERHASIL</h1>
+    <h1 class="thanks">TERIMA KASIH SUDAH BERBELANJA <br>
+        HASIL PESANAN ANDA SUDAH TERCATAT
+    </h1>
 
     <!-- Contact End -->
 

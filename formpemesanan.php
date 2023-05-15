@@ -89,10 +89,10 @@
 
                     </div>
                     <div class="menu">
-                        <a href="../project_uts/index.html" class="active nav-link">Beranda</a>
+                        <a href="../Ecommerce_Final/" class="active nav-link">Beranda</a>
                         <a href="" class="nav-link">Pesanan</a>
-                        <a href="../project_uts/index.html#pagetestimoni" class="nav-link">Testimoni</a>
-                        <a href="../project_uts/index.html#pagecontact" class="nav-link">Kontak</a>
+                        <a href="../Ecommerce_Final/#pagetestimoni" class="nav-link">Testimoni</a>
+                        <a href="../Ecommerce_Final/#pagecontact" class="nav-link">Kontak</a>
                         <a href="admin/login.php" class="nav-link">Admin</a>
                     </div>
                     <div class="icons">

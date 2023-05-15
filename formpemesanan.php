@@ -79,7 +79,7 @@
                         <a href="#" class="nav-link">Pesanan</a>
                         <a href="index.html#pagetestimoni" class="nav-link">Testimoni</a>
                         <a href="index.html#pagecontact" class="nav-link">Kontak</a>
-                        <a href="admin/login.php" class="nav-link">Admin</a>
+                        <a href="admin/index.php" class="nav-link">Admin</a>
                     </div>
                     <div class="icons">
                         <i class='bx bx-search icon'></i>

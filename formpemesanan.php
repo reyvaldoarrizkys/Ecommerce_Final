@@ -83,7 +83,7 @@
     <header>
         <div class="navbar">
             <div class="container">
-                <a href="" class="logo">E<span>Commerce</span></a>
+                <a href="index.html" class="logo">E<span>Commerce</span></a>
                 <div class="menu-wrapper">
                     <div class="menuClose bx bx-x">
 

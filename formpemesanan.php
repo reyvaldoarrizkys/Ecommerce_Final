@@ -1,19 +1,5 @@
 <?php 
-  $host = 'localhost';
-  $db = 'db_reyv22213ti';
-  $user = 'reyv22213ti';
-  $pass = '19670110222213';
-  $charset='utf8mb4';
-
-  $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-
-  $opt = [
-    PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC,
-    PDO::ATTR_EMULATE_PREPARES=>false,
-  ];
-
-  $dbh =  new PDO($dsn,$user,$pass,$opt);
+  require_once "./admin/dbkoneksi.php"; 
 
 ?>
 
@@ -90,7 +76,7 @@
                     </div>
                     <div class="menu">
                         <a href="index.html" class="active nav-link">Beranda</a>
-                        <a href="" class="nav-link">Pesanan</a>
+                        <a href="#" class="nav-link">Pesanan</a>
                         <a href="index.html#pagetestimoni" class="nav-link">Testimoni</a>
                         <a href="index.html#pagecontact" class="nav-link">Kontak</a>
                         <a href="admin/login.php" class="nav-link">Admin</a>

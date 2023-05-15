@@ -103,10 +103,10 @@ if (isset($_GET['id'])) {
 
                     </div>
                     <div class="menu">
-                        <a href="../Ecommerce_Final/index.html" class="active nav-link">Beranda</a>
-                        <a href="../Ecommerce_Final/formpesanan.php" class="nav-link">Pesanan</a>
-                        <a href="../Ecommerce_Final/index.html#pagetestimoni" class="nav-link">Testimoni</a>
-                        <a href="../Ecommerce_Final/index.html#pagecontact" class="nav-link">Kontak</a>
+                        <a href="../ecommerce/index.html" class="active nav-link">Beranda</a>
+                        <a href="../ecommerce/index.html/formpemesanan.php" class="nav-link">Pesanan</a>
+                        <a href="../ecommerce/index.html#pagetestimoni" class="nav-link">Testimoni</a>
+                        <a href="../ecommerce/index.html#pagecontact" class="nav-link">Kontak</a>
                         <a href="admin/login.php" class="nav-link">Admin</a>
                     </div>
                     <div class="icons">

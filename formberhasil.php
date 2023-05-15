@@ -85,7 +85,7 @@ if (isset($_GET['id'])) {
             color: #fff;
         }
 
-        .h1 .thanks{
+        .h1 .thanks {
             width: 100%;
             color: #1E6F5C;
             font-size: 25px;
@@ -162,10 +162,62 @@ if (isset($_GET['id'])) {
     <!-- HOME END -->
 
     <!-- Contact Start -->
-    <h1 class="thanks">TERIMA KASIH SUDAH BERBELANJA <br>
-        HASIL PESANAN ANDA SUDAH TERCATAT
-    </h1>
+    <!-- Testi Start -->
+    <br id="pagetestimoni">
+    <section class="testi">
+        <div class="container">
+            <div class="content-left">
+                <p class="label">BERHASIL ORDER</p>
+                <h3 class="heading">Terima Kasih</h3>
+                <p class="subheading">
+                    Terima Kasih sudah berbelanja, Hasil Pesanan anda sudah tercatat!
+                    jangan lupa untuk memberikan feedback positif terhadap produk kami!
+                </p>
+            </div>
+            <div class="content-right">
+                <!-- Swiper -->
+                <div class="swiper mySwiperTesti">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card-testi">
+                            <p class="date">6/12/2023</p>
+                            <div class="profile">
+                                <img src="image/Paul_Circle.png" style="width: 120px;" class="card-testi-img" alt="">
+                                <p class="name">Reyvaldo Arrizky</p>
+                                <p class="location">Depok</p>
+                            </div>
+                            <div class="card-body">
+                                <i class='bx bxs-quote-left'></i>
+                                <p class="text-testi">
+                                    Berbelanja Disini Sangatlah Menyenangkan, Mulai dari Pelayanannya Sangat Ramah, Dan Produk - Produk
+                                    Yang Dipasarkan Sangat Berkualitas dan Bagus, Terimakasih ECommerce.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card-testi">
+                            <p class="date">6/12/2023</p>
+                            <div class="profile">
+                                <img src="image/Rubio_Circle.png" style="width: 120px;" class="card-testi-img" alt="">
+                                <p class="name">Muhammad Ziyad</p>
+                                <p class="location">Depok</p>
+                            </div>
+                            <div class="card-body">
+                                <i class='bx bxs-quote-left'></i>
+                                <p class="text-testi">
+                                    Keren Sekali Barang - Barang Disini, Semuanya Berkualitas, Pasti Saya Akan Berbelanja Disini Lagi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
 
+                <div class="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testi End -->
     <!-- Contact End -->
 
 
